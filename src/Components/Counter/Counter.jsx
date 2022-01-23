@@ -6,7 +6,7 @@ import React from "react";
 
 function Counter(){
 
-    const elModalref = React.useRef(null)
+
 
     const [ count, setCount] = React.useState(0)
 
@@ -18,7 +18,7 @@ function Counter(){
 
         window.document.body.style.backgroundColor = 'rgb(19, 247, 209)'
 
-        console.log("hello world :)");
+        console.log("hello world :)");  
     },[])
 
     React.useEffect(() => {
