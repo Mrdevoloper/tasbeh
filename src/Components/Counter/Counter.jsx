@@ -56,7 +56,7 @@ function Counter(){
 
              
 
-                <button className="btn"  onClick={() => setCount (count + 1 )} >Oldinga</button>
+                <button className="btn"  onClick={() => setCount (count + 1 )} >Oldingaa</button>
 
                 <button className="btn"  onClick={() => setCount (count - 1 )} >orqaga</button>
 
